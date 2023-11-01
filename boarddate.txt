@@ -1,0 +1,25 @@
+1:上电开机。
+2：mount_as_tmpfs /lib/firmware/ (注释让firmware这个目录变为可更改的目录，之后在里面修改东西）
+3:进入firmware目录下 cd /lib/firmware
+4:把sd卡里的fakeBoardData_AR6320.bin拷贝到当前目录 cp /tmp/vrecord/videoclips/1-10/fakeBoardData_AR6320.bin ./
+5：更改名字  
+
+
+mv fakeBoardData_AR6320.bin fakeboar.bin
+
+6：rmmod wlan,之后进入 cd /tmp/vrecord/videoclips/2-7/,ls查看里面有wlan.ko和myftm,然后insmod wlan.ko con_mode=5
+7使用myftm测试例如 ./myftm -M 4 -r 1 -f 2412 -c 2 -a 1 -t 3  详情见myftm使用手册。
+
+
+
+1: On.
+2: mount_as_tmpfs /lib/firmware/ (comment it out to make the firmware directory a variable directory, and then modify the contents)
+3: Enter the firmware directory cd /lib/firmware
+4: Copy fakeBoardData_AR6320.bin from SD card to the current directory cp /tmp/vrecord/videoclips/1-10/fakeBoardData_AR6320.bin ./
+5: Change name
+
+
+mv fakeBoardData_AR6320.bin fakeboar.bin
+
+6: rmmod vlan, then enter cd /tmp/vrecord/videoclips/2-7/, ls to see vlan.ko and miftm, then insmod vlan.ko con_mode=5
+7 Use miftm to test, for example./miftm -M 4 -r 1 -f 2412 -c 2 -a 1 -t 3 For details, please refer to the miftm user manual.

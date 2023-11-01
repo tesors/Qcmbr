@@ -1,0 +1,48 @@
+5G 6M
+myftm -M 0 -r 4 -f 5180 -a 1 -x 1
+5G 54M
+myftm -M 0 -r 14 -f 5180 -a 1 -x 1
+5G N20 MCS0
+myftm -M 1 -r 15 -f 5180 -a 1 -x 1
+5G N20 MCS7
+myftm -M 1 -r 22 -f 5180 -a 1 -x 1
+5G N40 MCS0
+myftm -M 2 -r 15 -f 5180 -a 1 -x 1
+5G N40 MCS7
+myftm -M 2 -r 22 -f 5180 -a 1 -x 1
+5G AC20 MCS0
+myftm -M 5 -r 15 -f 5180 -a 1 -x 1
+5G AC20 MCS7
+myftm -M 5 -r 22 -f 5180 -a 1 -x 1
+5G AC40 MCS0
+myftm -M 6 -r 15 -f 5190 -a 1 -x 1
+5G AC40 MCS7
+myftm -M 6 -r 22 -f 5190 -a 1 -x 1
+5G AC80 MCS0
+myftm -M 8 -r 15 -f 5210 -a 1 -x 1
+5G AC80 MCS0
+myftm -M 8 -r 24 -f 5210 -a 1 -x 1
+
+
+
+接收：myftm -x 0
+
+2.4G	1M
+myftm -M 4 -r 1 -f 2412 -a 1 -x 1
+2.4G	11M
+myftm -M 4 -r 6 -f 2412 -a 1 -x 1
+2.4G	6M
+myftm -M 4 -r 4 -f 2412 -a 1 -x 1
+2.4G	54M
+myftm -M 4 -r 14 -f 2412 -a 1 -x 1
+2.4G	20	MCS0
+myftm -M 1 -r 15 -f 2412 -a 1 -x 1
+2.4G	20	MCS7
+myftm -M 1 -r 22 -f 2412 -a 1 -x 1
+2.4G	40	MCS0
+myftm -M 2 -r 15 -f 2422 -a 1 -x 1
+2.4G	40	MCS7
+myftm -M 2 -r 22 -f 2422 -a 1 -x 1
+
+接收：myftm -x 0
+

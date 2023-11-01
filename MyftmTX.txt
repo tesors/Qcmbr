@@ -1,0 +1,242 @@
+
+11n ht20 msc7
+myftm -M 1 -r 22 -f 2412 -c 2 -a 1 -t 3
+myftm -M 1 -r 22 -f 2442 -c 2 -a 2 -t 3
+myftm -M 1 -r 22 -f 2472 -c 2 -a 2 -t 3
+11n ht20 msc0
+myftm -M 1 -r 15 -f 2412 -c 2 -a 2 -t 3
+myftm -M 1 -r 15 -f 2442 -c 2 -a 2 -t 3
+myftm -M 1 -r 15 -f 2472 -c 2 -a 2 -t 3
+11n ht40 msc7
+myftm -M 2 -r 22 -f 2422 -c 2 -a 2 -t 3
+myftm -M 2 -r 22 -f 2442 -c 2 -a 2 -t 3
+myftm -M 2 -r 22 -f 2462 -c 2 -a 2 -t 3
+11n ht40 msc0
+myftm -M 2 -r 15 -f 2422 -c 2 -a 2 -t 3
+myftm -M 2 -r 15 -f 2442 -c 2 -a 2 -t 3
+myftm -M 2 -r 15 -f 2462 -c 2 -a 2 -t 3
+11g 54m
+myftm -M 0 -r 14 -f 2412 -c 2 -a 2 -t 3
+myftm -M 0 -r 14 -f 2442 -c 2 -a 2 -t 3
+myftm -M 0 -r 14 -f 2472 -c 2 -a 2 -t 3
+11g 6m
+myftm -M 0 -r 4  -f 2412 -c 2 -a 2 -t 3
+myftm -M 0 -r 4  -f 2442 -c 2 -a 2 -t 3
+myftm -M 0 -r 4  -f 2472 -c 2 -a 2 -t 3
+11b 11m
+myftm -M 4 -r 6  -f 2412 -c 2 -a 2 -t 3
+myftm -M 4 -r 6  -f 2442 -c 2 -a 2 -t 3
+myftm -M 4 -r 6  -f 2472 -c 2 -a 2 -t 3
+11b 1m
+myftm -M 4 -r 1  -f 2412 -c 2 -a 2 -t 3
+myftm -M 4 -r 1  -f 2442 -c 2 -a 2 -t 3
+myftm -M 4 -r 1  -f 2472 -c 2 -a 2 -t 3
+
+5g 11a 54m
+myftm -M 0 -r 14 -f 5180 -c 2 -a 2 -t 3
+myftm -M 0 -r 14 -f 5320 -c 2 -a 2 -t 3
+myftm -M 0 -r 14 -f 5500 -c 2 -a 2 -t 3
+myftm -M 0 -r 14 -f 5700 -c 2 -a 2 -t 3
+myftm -M 0 -r 14 -f 5745 -c 2 -a 2 -t 3
+myftm -M 0 -r 14 -f 5825 -c 2 -a 2 -t 3
+5g 11a 6m
+myftm -M 0 -r 4 -f 5180 -c 2 -a 2 -t 3
+myftm -M 0 -r 4 -f 5320 -c 2 -a 2 -t 3
+myftm -M 0 -r 4 -f 5500 -c 2 -a 2 -t 3
+myftm -M 0 -r 4 -f 5700 -c 2 -a 2 -t 3
+myftm -M 0 -r 4 -f 5745 -c 2 -a 2 -t 3
+myftm -M 0 -r 4 -f 5825 -c 2 -a 2 -t 3
+5g 11n ht20 mcs7
+myftm -M 1 -r 22 -f 5180 -c 2 -a 2 -t 3
+myftm -M 1 -r 22 -f 5320 -c 2 -a 2 -t 3
+myftm -M 1 -r 22 -f 5500 -c 2 -a 2 -t 3
+myftm -M 1 -r 22 -f 5700 -c 2 -a 2 -t 3
+myftm -M 1 -r 22 -f 5745 -c 2 -a 2 -t 3
+myftm -M 1 -r 22 -f 5825 -c 2 -a 2 -t 3
+5g 11n ht20 mcs0
+myftm -M 1 -r 15 -f 5180 -c 2 -a 2 -t 3
+myftm -M 1 -r 15 -f 5320 -c 2 -a 2 -t 3
+myftm -M 1 -r 15 -f 5500 -c 2 -a 2 -t 3
+myftm -M 1 -r 15 -f 5700 -c 2 -a 2 -t 3
+myftm -M 1 -r 15 -f 5745 -c 2 -a 2 -t 3
+myftm -M 1 -r 15 -f 5825 -c 2 -a 2 -t 3
+5g 11n ht40 mcs7
+myftm -M 2 -r 22 -f 5190 -c 2 -a 2 -t 3
+myftm -M 2 -r 22 -f 5310 -c 2 -a 2 -t 3
+myftm -M 2 -r 22 -f 5510 -c 2 -a 2 -t 3
+myftm -M 2 -r 22 -f 5670 -c 2 -a 2 -t 3
+myftm -M 2 -r 22 -f 5795 -c 2 -a 2 -t 3
+5g 11n ht40 mcs0
+myftm -M 2 -r 15 -f 5190 -c 2 -a 2 -t 3
+myftm -M 2 -r 15 -f 5310 -c 2 -a 2 -t 3
+myftm -M 2 -r 15 -f 5510 -c 2 -a 2 -t 3
+myftm -M 2 -r 15 -f 5670 -c 2 -a 2 -t 3
+myftm -M 2 -r 15 -f 5795 -c 2 -a 2 -t 3
+5g 11ac ht20 mcs8
+myftm -M 5 -r 23 -f 5180 -c 2 -a 2 -t 3
+myftm -M 5 -r 23 -f 5320 -c 2 -a 2 -t 3
+myftm -M 5 -r 23 -f 5500 -c 2 -a 2 -t 3
+myftm -M 5 -r 23 -f 5700 -c 2 -a 2 -t 3
+myftm -M 5 -r 23 -f 5745 -c 2 -a 2 -t 3
+myftm -M 5 -r 23 -f 5825 -c 2 -a 2 -t 3
+5g 11ac ht20 mcs0
+myftm -M 5 -r 15 -f 5180 -c 2 -a 2 -t 3
+myftm -M 5 -r 15 -f 5320 -c 2 -a 2 -t 3
+myftm -M 5 -r 15 -f 5500 -c 2 -a 2 -t 3
+myftm -M 5 -r 15 -f 5700 -c 2 -a 2 -t 3
+myftm -M 5 -r 15 -f 5745 -c 2 -a 2 -t 3
+myftm -M 5 -r 15 -f 5825 -c 2 -a 2 -t 3
+5g 11ac ht40 mcs9
+myftm -M 6 -r 24 -f 5190 -c 2 -a 2 -t 3
+myftm -M 6 -r 24 -f 5310 -c 2 -a 2 -t 3
+myftm -M 6 -r 24 -f 5510 -c 2 -a 2 -t 3
+myftm -M 6 -r 24 -f 5670 -c 2 -a 2 -t 3
+myftm -M 6 -r 24 -f 5795 -c 2 -a 2 -t 3
+5g 11ac ht40 mcs0
+myftm -M 6 -r 15 -f 5190 -c 2 -a 2 -t 3
+myftm -M 6 -r 15 -f 5310 -c 2 -a 2 -t 3
+myftm -M 6 -r 15 -f 5510 -c 2 -a 2 -t 3
+myftm -M 6 -r 15 -f 5670 -c 2 -a 2 -t 3
+myftm -M 6 -r 15 -f 5795 -c 2 -a 2 -t 3
+5g 11ac ht80 mcs9
+myftm -M 8 -r 24 -f 5210 -c 2 -a 2 -t 3
+myftm -M 8 -r 24 -f 5290 -c 2 -a 2 -t 3
+myftm -M 8 -r 24 -f 5530 -c 2 -a 2 -t 3
+myftm -M 8 -r 24 -f 5610 -c 2 -a 2 -t 3
+myftm -M 8 -r 24 -f 5775 -c 2 -a 2 -t 3
+5g 11ac ht80 mcs0
+myftm -M 8 -r 15 -f 5210 -c 2 -a 2 -t 3
+myftm -M 8 -r 15 -f 5290 -c 2 -a 2 -t 3
+myftm -M 8 -r 15 -f 5530 -c 2 -a 2 -t 3
+myftm -M 8 -r 15 -f 5610 -c 2 -a 2 -t 3
+myftm -M 8 -r 15 -f 5775 -c 2 -a 2 -t 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+cd system/lib/modules
+insmod compat.ko
+insmod cfg80211.ko
+insmod wlan.ko con_mode=5
+
+chain0
+11n ht20 msc7
+myftm -M 1 -r 22 -f 2412 -c 2 -a 1 -t 3
+myftm -M 1 -r 22 -f 2442 -c 2 -a 1 -t 3
+myftm -M 1 -r 22 -f 2472 -c 2 -a 1 -t 3
+11n ht20 msc0
+myftm -M 1 -r 15 -f 2412 -c 2 -a 1 -t 3
+myftm -M 1 -r 15 -f 2442 -c 2 -a 1 -t 3
+myftm -M 1 -r 15 -f 2472 -c 2 -a 1 -t 3
+11n ht40 msc7
+myftm -M 2 -r 22 -f 2422 -c 2 -a 1 -t 3
+myftm -M 2 -r 22 -f 2442 -c 2 -a 1 -t 3
+myftm -M 2 -r 22 -f 2462 -c 2 -a 1 -t 3
+11n ht40 msc0
+myftm -M 2 -r 15 -f 2422 -c 2 -a 1 -t 3
+myftm -M 2 -r 15 -f 2442 -c 2 -a 1 -t 3
+myftm -M 2 -r 15 -f 2462 -c 2 -a 1 -t 3
+11g 54m
+myftm -M 0 -r 14 -f 2412 -c 2 -a 1 -t 3
+myftm -M 0 -r 14 -f 2442 -c 2 -a 1 -t 3
+myftm -M 0 -r 14 -f 2472 -c 2 -a 1 -t 3
+11g 6m
+myftm -M 0 -r 4  -f 2412 -c 2 -a 1 -t 3
+myftm -M 0 -r 4  -f 2442 -c 2 -a 1 -t 3
+myftm -M 0 -r 4  -f 2472 -c 2 -a 1 -t 3
+11b 11m
+myftm -M 4 -r 6  -f 2412 -c 2 -a 1 -t 3
+myftm -M 4 -r 6  -f 2442 -c 2 -a 1 -t 3
+myftm -M 4 -r 6  -f 2472 -c 2 -a 1 -t 3
+11b 1m
+myftm -M 4 -r 1  -f 2412 -c 2 -a 1 -t 3
+myftm -M 4 -r 1  -f 2442 -c 2 -a 1 -t 3
+myftm -M 4 -r 1  -f 2472 -c 2 -a 1 -t 3
+
+5g 11a 54m
+myftm -M 0 -r 14 -f 5180 -c 2 -a 1 -t 3
+myftm -M 0 -r 14 -f 5320 -c 2 -a 1 -t 3
+myftm -M 0 -r 14 -f 5500 -c 2 -a 1 -t 3
+myftm -M 0 -r 14 -f 5700 -c 2 -a 1 -t 3
+myftm -M 0 -r 14 -f 5745 -c 2 -a 1 -t 3
+myftm -M 0 -r 14 -f 5825 -c 2 -a 1 -t 3
+5g 11a 6m
+myftm -M 0 -r 4 -f 5180 -c 2 -a 1 -t 3
+myftm -M 0 -r 4 -f 5320 -c 2 -a 1 -t 3
+myftm -M 0 -r 4 -f 5500 -c 2 -a 1 -t 3
+myftm -M 0 -r 4 -f 5700 -c 2 -a 1 -t 3
+myftm -M 0 -r 4 -f 5745 -c 2 -a 1 -t 3
+myftm -M 0 -r 4 -f 5825 -c 2 -a 1 -t 3
+5g 11n ht20 mcs7
+myftm -M 1 -r 22 -f 5180 -c 2 -a 1 -t 3
+myftm -M 1 -r 22 -f 5320 -c 2 -a 1 -t 3
+myftm -M 1 -r 22 -f 5500 -c 2 -a 1 -t 3
+myftm -M 1 -r 22 -f 5700 -c 2 -a 1 -t 3
+myftm -M 1 -r 22 -f 5745 -c 2 -a 1 -t 3
+myftm -M 1 -r 22 -f 5825 -c 2 -a 1 -t 3
+5g 11n ht20 mcs0
+myftm -M 1 -r 15 -f 5180 -c 2 -a 1 -t 3
+myftm -M 1 -r 15 -f 5320 -c 2 -a 1 -t 3
+myftm -M 1 -r 15 -f 5500 -c 2 -a 1 -t 3
+myftm -M 1 -r 15 -f 5700 -c 2 -a 1 -t 3
+myftm -M 1 -r 15 -f 5745 -c 2 -a 1 -t 3
+myftm -M 1 -r 15 -f 5825 -c 2 -a 1 -t 3
+5g 11n ht40 mcs7
+myftm -M 2 -r 22 -f 5190 -c 2 -a 1 -t 3
+myftm -M 2 -r 22 -f 5310 -c 2 -a 1 -t 3
+myftm -M 2 -r 22 -f 5510 -c 2 -a 1 -t 3
+myftm -M 2 -r 22 -f 5670 -c 2 -a 1 -t 3
+myftm -M 2 -r 22 -f 5795 -c 2 -a 1 -t 3
+5g 11n ht40 mcs0
+myftm -M 2 -r 15 -f 5190 -c 2 -a 1 -t 3
+myftm -M 2 -r 15 -f 5310 -c 2 -a 1 -t 3
+myftm -M 2 -r 15 -f 5510 -c 2 -a 1 -t 3
+myftm -M 2 -r 15 -f 5670 -c 2 -a 1 -t 3
+myftm -M 2 -r 15 -f 5795 -c 2 -a 1 -t 3
+5g 11ac ht20 mcs8
+myftm -M 5 -r 23 -f 5180 -c 2 -a 1 -t 3
+myftm -M 5 -r 23 -f 5320 -c 2 -a 1 -t 3
+myftm -M 5 -r 23 -f 5500 -c 2 -a 1 -t 3
+myftm -M 5 -r 23 -f 5700 -c 2 -a 1 -t 3
+myftm -M 5 -r 23 -f 5745 -c 2 -a 1 -t 3
+myftm -M 5 -r 23 -f 5825 -c 2 -a 1 -t 3
+5g 11ac ht20 mcs0
+myftm -M 5 -r 15 -f 5180 -c 2 -a 1 -t 3
+myftm -M 5 -r 15 -f 5320 -c 2 -a 1 -t 3
+myftm -M 5 -r 15 -f 5500 -c 2 -a 1 -t 3
+myftm -M 5 -r 15 -f 5700 -c 2 -a 1 -t 3
+myftm -M 5 -r 15 -f 5745 -c 2 -a 1 -t 3
+myftm -M 5 -r 15 -f 5825 -c 2 -a 1 -t 3
+5g 11ac ht40 mcs9
+myftm -M 6 -r 24 -f 5190 -c 2 -a 1 -t 3
+myftm -M 6 -r 24 -f 5310 -c 2 -a 1 -t 3
+myftm -M 6 -r 24 -f 5510 -c 2 -a 1 -t 3
+myftm -M 6 -r 24 -f 5670 -c 2 -a 1 -t 3
+myftm -M 6 -r 24 -f 5795 -c 2 -a 1 -t 3
+5g 11ac ht40 mcs0
+myftm -M 6 -r 15 -f 5190 -c 2 -a 1 -t 3
+myftm -M 6 -r 15 -f 5310 -c 2 -a 1 -t 3
+myftm -M 6 -r 15 -f 5510 -c 2 -a 1 -t 3
+myftm -M 6 -r 15 -f 5670 -c 2 -a 1 -t 3
+myftm -M 6 -r 15 -f 5795 -c 2 -a 1 -t 3
+5g 11ac ht80 mcs9
+myftm -M 8 -r 24 -f 5210 -c 2 -a 1 -t 3
+myftm -M 8 -r 24 -f 5290 -c 2 -a 1 -t 3
+myftm -M 8 -r 24 -f 5530 -c 2 -a 1 -t 3
+myftm -M 8 -r 24 -f 5610 -c 2 -a 1 -t 3
+myftm -M 8 -r 24 -f 5775 -c 2 -a 1 -t 3
+5g 11ac ht80 mcs0
+myftm -M 8 -r 15 -f 5210 -c 2 -a 1 -t 3
+myftm -M 8 -r 15 -f 5290 -c 2 -a 1 -t 3
+myftm -M 8 -r 15 -f 5530 -c 2 -a 1 -t 3
+myftm -M 8 -r 15 -f 5610 -c 2 -a 1 -t 3
+myftm -M 8 -r 15 -f 5775 -c 2 -a 1 -t 3

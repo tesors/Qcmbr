@@ -1,0 +1,16 @@
+-Confirm that the device wifi and bt are turned off
+-Enter svc wifi disable
+-Enter rmmod wlan
+-Enter insmod /system/lib/wlan.ko con_mode=5 (the path of wlan.ko is for amlogic)
+
+Compile Qcmbr using the platform's cross-tool compilation chain
+Place Qcmbr under /system/bin/
+And when you execute Qcmbr, you will see the following message
+
+qcmbr is run......
+
+
+Confirm that the platform has the FW used for testing, utf30.bin and the boarddata used for testing, utfbd30.bin, which can be confirmed with the software.
+(FW path is /etc/wifi/firmware/qca6174, this path is for amlogic platform)
+
+The files used for testing in QDART need to be consistent with bdwlan30.bin and utfbd30.bin in the board;

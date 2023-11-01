@@ -1,0 +1,10 @@
+There are 2 ways:
+
+1. If your platform has cable connector, then you can use "QRCT" to test, you need to compile "Qcmbr" and start the program.
+
+2. myftm instruction test
+
+   1) Put the file "myftm arm32" file into the board's system/bin menu and rename it "Myftm"
+ 
+   2) replace the bdwlan30.bin of the board with the "8274B-PR 2XXXXXX.bin" file from the attachment. ( search the board file and put them into the same file folder).
+
