@@ -1,8 +1,8 @@
 # Makefile for Qcmbr
 
-CFLAGS += -g -DDEBUG -DLINUX_X86
-LDLIBS = -lpthread -lrt
-CC = arm-hisiv600-linux-gcc
+# CFLAGS += -g -DDEBUG -DLINUX_X86
+# LDLIBS = -lpthread -lrt
+# CC = /opt/linaro/gcc-linaro-7.3.1-2018.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc
 ifeq ($(CONFIG_QCMBR_UART), y) 
 CFLAGS += -DQCMBR_UART_QDART
 OBJ_UART = uart.o
