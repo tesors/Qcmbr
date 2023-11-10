@@ -724,9 +724,13 @@ int SendItDiag(int client, unsigned char *buffer, int length)
 		}
 		else
 		{
+			#ifdef _WINDOWS
 			SocketWriteEnableMode( 1 );
+			#endif
 			nwrite=SocketWrite(_ClientSocket[client],buffer,length);
+			#ifdef _WINDOWS
 			SocketWriteEnableMode( 0 );
+			#endif
 			
 			if(nwrite<0)
 			{
@@ -769,7 +773,9 @@ void Qcmbr_Run(int port)
 	int it;
 
 	SetStrTerminationChar( DIAG_TERM_CHAR );
+	#ifdef _WINDOWS
 	SocketWriteEnableMode( 0 );
+	#endif
 
     //
     // open listen socket
